@@ -1,4 +1,4 @@
-# Satusia_OpenSource
+# Satusia_SocialNetwork
 È un semplice Social Network che ha lo scopo di permette agli utenti di cercare dei collaboratori per i propri progetti.
 È realizzato in PHP, HTML/CSS, jQuery, SQL. Non utilizza framework.
 Funzioni presenti:
