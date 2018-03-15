@@ -7,7 +7,8 @@ if(isset($_POST['logmail']) && isset($_POST['logpsswd'])){
 	$mail = mysqli_real_escape_string($connessione, $_POST['logmail']);
 	$psswd = md5($_POST['logpsswd']);
 	
-	$query = mysqli_query($connessione, "SELECT * FROM utenti WHERE email = '$mail' AND password = '$psswd' AND gotPsw = '1'");
+	//$query = mysqli_query($connessione, "SELECT * FROM utenti WHERE email = '$mail' AND password = '$psswd' AND gotPsw = '1'");
+	$query = mysqli_query($connessione, "SELECT * FROM utenti WHERE email = '$mail' AND password = '$psswd'");
 	
 		$row = mysqli_num_rows($query);
 		
